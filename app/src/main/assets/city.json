@@ -1,0 +1,703 @@
+[
+  {
+    "title": "Астана",
+    "lng": "71.433333",
+    "lat": "51.133333",
+    "timezone": "6",
+    "slug": "nur-sultan"
+  },
+  {
+    "title": "Алматы",
+    "lng": "76.945465",
+    "lat": "43.238293",
+    "timezone": "6",
+    "slug": "almaty"
+  },
+  {
+    "title": "Шымкент",
+    "lng": "69.6",
+    "lat": "42.3",
+    "timezone": "6",
+    "slug": "shymkent"
+  },
+
+  {
+    "title": "Қызылорда",
+    "lng": "65.516667",
+    "lat": "44.85",
+    "timezone": "5",
+    "slug": "yizyilorda"
+  },
+  {
+    "title": "Ақтөбе",
+    "lng": "57.166667",
+    "lat": "50.3",
+    "timezone": "5",
+    "slug": "atbe"
+  },
+  {
+    "title": "Қонаев",
+    "lng": "77.083333",
+    "lat": "43.883333",
+    "timezone": "6",
+    "slug": "apshaaj"
+  },
+  {
+    "title": "Талдықорған",
+    "lng": "78.366667",
+    "lat": "45.016667",
+    "timezone": "6",
+    "slug": "taldyioran"
+  },
+  {
+    "title": "Көкшетау",
+    "lng": "69.391667",
+    "lat": "53.291667",
+    "timezone": "6",
+    "slug": "kkshetau"
+  },
+  {
+    "title": "Өскемен",
+    "lng": "82.616667",
+    "lat": "49.95",
+    "timezone": "6",
+    "slug": "skemen"
+  },
+  {
+    "title": "Семей",
+    "lng": "80.2275",
+    "lat": "50.411111",
+    "timezone": "6",
+    "slug": "semej"
+  },
+  {
+    "title": "Жаңатас",
+    "lng": "69.75",
+    "lat": "43.566667",
+    "timezone": "6",
+    "slug": "zhaatas"
+  },
+  {
+    "title": "Қаратау",
+    "lng": "70.466667",
+    "lat": "43.166667",
+    "timezone": "6",
+    "slug": "aratau"
+  },
+  {
+    "title": "Тараз",
+    "lng": "71.366667",
+    "lat": "42.883333",
+    "timezone": "6",
+    "slug": "taraz"
+  },
+  {
+    "title": "Жезқазған",
+    "lng": "67.7",
+    "lat": "47.783333",
+    "timezone": "6",
+    "slug": "zhezazan"
+  },
+  {
+    "title": "Қарағанды",
+    "lng": "73.085485",
+    "lat": "49.806406",
+    "timezone": "6",
+    "slug": "araandyi"
+  },
+  {
+    "title": "Қостанай",
+    "lng": "63.634194",
+    "lat": "53.219333",
+    "timezone": "6",
+    "slug": "ostanaj"
+  },
+  {
+    "title": "Петропавл",
+    "lng": "69.140833",
+    "lat": "54.862222",
+    "timezone": "6",
+    "slug": "petropavl"
+  },
+  {
+    "title": "Екібастұз",
+    "lng": "75.326583",
+    "lat": "51.729778",
+    "timezone": "6",
+    "slug": "ekbastz"
+  },
+  {
+    "title": "Павлодар",
+    "lng": "76.956389",
+    "lat": "52.315556",
+    "timezone": "6",
+    "slug": "pavlodar"
+  },
+  {
+    "title": "Жетісай",
+    "lng": "68.327222",
+    "lat": "40.775278",
+    "timezone": "6",
+    "slug": "zhetsaj"
+  },
+  {
+    "title": "Сарыағаш",
+    "lng": "69.166667",
+    "lat": "41.466667",
+    "timezone": "6",
+    "slug": "saryiaash"
+  },
+  {
+    "title": "Шардара",
+    "lng": "67.969167",
+    "lat": "41.254722",
+    "timezone": "6",
+    "slug": "shardara"
+  },
+  {
+    "title": "Атырау",
+    "lng": "51.883333",
+    "lat": "47.116667",
+    "timezone": "5",
+    "slug": "atyirau"
+  },
+  {
+    "title": "Ақтау",
+    "lng": "51.169135",
+    "lat": "43.635379",
+    "timezone": "5",
+    "slug": "atau"
+  },
+  {
+    "title": "Жаңаөзен",
+    "lng": "52.865792",
+    "lat": "43.343266",
+    "timezone": "5",
+    "slug": "zhaazen"
+  },
+  {
+    "title": "Орал",
+    "lng": "51.370537",
+    "lat": "51.204019",
+    "timezone": "5",
+    "slug": "oral"
+  },
+  {
+    "title": "Түркістан",
+    "lng": "68.243611",
+    "lat": "43.3",
+    "timezone": "6",
+    "slug": "trkstan"
+  },
+  {
+    "title": "Қарабалық ауданы",
+    "lng": "61.769785",
+    "lat": "53.599507",
+    "timezone": "6",
+    "slug": "arabalyi-audanyi"
+  },
+  {
+    "title": "Қамысты ауданы",
+    "lng": "62.301561",
+    "lat": "51.549566",
+    "timezone": "6",
+    "slug": "amyistyi-audanyi"
+  },
+  {
+    "title": "Алтынсарин ауданы",
+    "lng": "64.589965",
+    "lat": "53.104086",
+    "timezone": "6",
+    "slug": "altyinsarin-audanyi"
+  },
+  {
+    "title": "Ұзынағаш",
+    "lng": "76.314192",
+    "lat": "43.220905",
+    "timezone": "6",
+    "slug": "zyinaash"
+  },
+  {
+    "title": "Талғар",
+    "lng": "77.239690",
+    "lat": "43.302813",
+    "timezone": "6",
+    "slug": "talar"
+  },
+  {
+    "title": "Қаскелең",
+    "lng": "76.622278",
+    "lat": "43.202449",
+    "timezone": "6",
+    "slug": "askele"
+  },
+  {
+    "title": "Шұбарқұдық",
+    "lng": "56.563994",
+    "lat": "49.202977",
+    "timezone": "5",
+    "slug": "shbardyi"
+  },
+  {
+    "title": "Шу",
+    "lng": "73.760237",
+    "lat": "43.611782",
+    "timezone": "6",
+    "slug": "shu"
+  },
+  {
+    "title": "Қордай",
+    "lng": "74.708076",
+    "lat": "43.046040",
+    "timezone": "6",
+    "slug": "ordaj"
+  },
+  {
+    "title": "Қаражал",
+    "lng": "70.785762",
+    "lat": "48.001042",
+    "timezone": "6",
+    "slug": "arazhal"
+  },
+  {
+    "title": "Атасу ауылы",
+    "lng": "71.078065",
+    "lat": "48.500979",
+    "timezone": "6",
+    "slug": "atasu-auyilyi"
+  },
+  {
+    "title": "Келес ауданы",
+    "lng": "68.544861",
+    "lat": "41.305597",
+    "timezone": "6",
+    "slug": "keles-audanyi"
+  },
+  {
+    "title": "Ленгер",
+    "lng": "69.882120",
+    "lat": "42.182051",
+    "timezone": "6",
+    "slug": "lenger"
+  },
+  {
+    "title": "Отырар ауданы",
+    "lng": "67.497308",
+    "lat": "42.666225",
+    "timezone": "6",
+    "slug": "otyirar-audanyi"
+  },
+  {
+    "title": "Сайрам ауданы",
+    "lng": "69.875266",
+    "lat": "42.403930",
+    "timezone": "6",
+    "slug": "sajram-audanyi"
+  },
+  {
+    "title": "Созақ ауданы",
+    "lng": "68.569600",
+    "lat": "44.861720",
+    "timezone": "6",
+    "slug": "soza-audanyi"
+  },
+  {
+    "title": "Түлкібас кенті",
+    "lng": "70.290737",
+    "lat": "42.493477",
+    "timezone": "6",
+    "slug": "tlkbas-kent"
+  },
+  {
+    "title": "Қарғалы",
+    "lng": "58.106976",
+    "lat": "50.783970",
+    "timezone": "5",
+    "slug": "aralyi"
+  },
+  {
+    "title": "Ойыл ауданы",
+    "lng": "54.575097",
+    "lat": "49.260606",
+    "timezone": "5",
+    "slug": "ojyil-audanyi"
+  },
+  {
+    "title": "Ырғыз ауданы",
+    "lng": "62.151353",
+    "lat": "48.481065",
+    "timezone": "5",
+    "slug": "yiryiz-audanyi"
+  },
+  {
+    "title": "Байғанин ауданы",
+    "lng": "56.526355",
+    "lat": "47.436554",
+    "timezone": "5",
+    "slug": "bajanin-audanyi"
+  },
+  {
+    "title": "Қобда ауданы",
+    "lng": "55.325909",
+    "lat": "50.188476",
+    "timezone": "5",
+    "slug": "obda-audanyi"
+  },
+  {
+    "title": "Мәртөк ауданы",
+    "lng": "56.733892",
+    "lat": "50.711441",
+    "timezone": "5",
+    "slug": "mrtk-audanyi"
+  },
+  {
+    "title": "Ембі",
+    "lng": "58.148397",
+    "lat": "48.823344",
+    "timezone": "5",
+    "slug": "emb"
+  },
+  {
+    "title": "Шиелі кенті",
+    "lng": "66.731387",
+    "lat": "44.177802",
+    "timezone": "5",
+    "slug": "shiel-audanyi"
+  },
+  {
+    "title": "Зайсан",
+    "lng": "84.969846",
+    "lat": "47.453008",
+    "timezone": "6",
+    "slug": "zajsan"
+  },
+  {
+    "title": "Шал ақын ауданы",
+    "lng": "67.379494",
+    "lat": "53.785566",
+    "timezone": "6",
+    "slug": "shal-ayin-audanyi"
+  },
+  {
+    "title": "Еңбекшіқазақ",
+    "lng": "78.163706",
+    "lat": "43.500438",
+    "timezone": "6",
+    "slug": "ebekshaza"
+  },
+  {
+    "title": "Индер",
+    "lng": "51.398492",
+    "lat": "48.299901",
+    "timezone": "5",
+    "slug": "inder"
+  },
+  {
+    "title": "Жосалы",
+    "lng": "64.086666",
+    "lat": "45.488489",
+    "timezone": "5",
+    "slug": "zhosalyi"
+  },
+  {
+    "title": "Кентау",
+    "lng": "68.504652",
+    "lat": "43.518131",
+    "timezone": "6",
+    "slug": "kentau"
+  },
+  {
+    "title": "Қазығұрт",
+    "lng": "69.579316",
+    "lat": "41.862652",
+    "timezone": "6",
+    "slug": "azyirt"
+  },
+  {
+    "title": "Шамалған ауылы",
+    "lng": "76.534549",
+    "lat": "43.189863",
+    "timezone": "6",
+    "slug": "shamalan-auyilyi"
+  },
+  {
+    "title": "Тайынша",
+    "lng": "69.782631",
+    "lat": "53.852738",
+    "timezone": "6",
+    "slug": "tajyinsha"
+  },
+  {
+    "title": "Жезді кенті",
+    "lng": "67.054870",
+    "lat": "48.058857",
+    "timezone": "6",
+    "slug": "zhezd-kent"
+  },
+  {
+    "title": "Сырым ауданы",
+    "lng": "52.678107",
+    "lat": "50.325986",
+    "timezone": "5",
+    "slug": "syiryim-audanyi"
+  },
+  {
+    "title": "Жалағаш кенті",
+    "lng": "64.681333",
+    "lat": "45.080281",
+    "timezone": "5",
+    "slug": "zhalaash-audanyi"
+  },
+  {
+    "title": "Тереңөзек кенті",
+    "lng": "64.985412",
+    "lat": "45.053372",
+    "timezone": "5",
+    "slug": "terenozek-kenti"
+  },
+  {
+    "title": "Жаңақорған кенті",
+    "lng": "67.243723",
+    "lat": "43.900451",
+    "timezone": "5",
+    "slug": "zhaaoran-audanyi"
+  },
+  {
+    "title": "Теміртау",
+    "lng": "72.953424",
+    "lat": "50.058756",
+    "timezone": "6",
+    "slug": "temrtau"
+  },
+  {
+    "title": "Алға",
+    "lng": "58.284444",
+    "lat": "50.076944",
+    "timezone": "5",
+    "slug": "alga"
+  },
+  {
+    "title": "Ақсу",
+    "lng": "76.920582",
+    "lat": "52.037890",
+    "timezone": "6",
+    "slug": "aksu"
+  },
+  {
+    "title": "Май ауданы",
+    "lng": "77.498594",
+    "lat": "51.030109",
+    "timezone": "6",
+    "slug": "mai-audany"
+  },
+  {
+    "title": "Шарбақты ауданы",
+    "lng": "78.302622",
+    "lat": "52.335401",
+    "timezone": "6",
+    "slug": "sharbakty-audany"
+  },
+  {
+    "title": "Ертіс ауданы",
+    "lng": "74.586606",
+    "lat": "53.295153",
+    "timezone": "6",
+    "slug": "ertis-audany"
+  },
+  {
+    "title": "Ақтоғай ауданы",
+    "lng": "75.222892",
+    "lat": "52.732339",
+    "timezone": "6",
+    "slug": "aktogai-audany"
+  },
+  {
+    "title": "Тереңкөл ауданы",
+    "lng": "76.483156",
+    "lat": "53.227323",
+    "timezone": "6",
+    "slug": "terenkol-audany"
+  },
+  {
+    "title": "Баянауыл ауданы",
+    "lng": "75.489287",
+    "lat": "50.803357",
+    "timezone": "6",
+    "slug": "baianauyl-audany"
+  },
+  {
+    "title": "Аққулы ауданы",
+    "lng": "78.303592",
+    "lat": "51.508573",
+    "timezone": "6",
+    "slug": "akkuly-audany"
+  },
+  {
+    "title": "Солнечный",
+    "lng": "75.462284",
+    "lat": "52.034976",
+    "timezone": "6",
+    "slug": "solnechnyi"
+  },
+  {
+    "title": "Майқайын кенті",
+    "lng": "75.796313",
+    "lat": "51.458711",
+    "timezone": "6",
+    "slug": "maikaiyn-kenti"
+  },
+  {
+    "title": "Әйтеке би ауданы",
+    "lng": "60.87",
+    "lat": "49.99",
+    "timezone": "5",
+    "slug": "aitekebiiskii-raion"
+  },
+  {
+    "title": "Целиноград ауданы",
+    "lng": "70.990677",
+    "lat": "51.028562",
+    "timezone": "6",
+    "slug": "tselinogradskii-raion"
+  },
+  {
+    "title": "Үржар ауданы",
+    "lng": "81.462482",
+    "lat": "46.974805",
+    "timezone": "6",
+    "slug": "urdzharskii-raion"
+  },
+  {
+    "title": "Көкпекті ауданы",
+    "lng": "82.892842",
+    "lat": "48.687009",
+    "timezone": "6",
+    "slug": "kokpektinskii-raion"
+  },
+  {
+    "title": "Курчатов",
+    "lng": "78.544826",
+    "lat": "50.754900",
+    "timezone": "6",
+    "slug": "kurchatov"
+  },
+  {
+    "title": "Исатай ауданы",
+    "lng": "50.381465",
+    "lat": "47.381847",
+    "timezone": "5",
+    "slug": "isataiskii-raion"
+  },
+  {
+    "title": "Құрманғазы ауданы",
+    "lng": "49.266377",
+    "lat": "47.140203",
+    "timezone": "5",
+    "slug": "kurmangazinskii-raion"
+  },
+  {
+    "title": "Маханбет ауданы",
+    "lng": "51.763577",
+    "lat": "47.633313",
+    "timezone": "5",
+    "slug": "makhambetskii-raion"
+  },
+  {
+    "title": "Жосалы кенті",
+    "lng": "64.086675",
+    "lat": "45.488495",
+    "timezone": "5",
+    "slug": "karmakshinskii-raion"
+  },
+  {
+    "title": "Бәйдібек ауданы",
+    "lng": "69.485514",
+    "lat": "43.027233",
+    "timezone": "6",
+    "slug": "raion-baidibeka"
+  },
+  {
+    "title": "Арыс қаласы",
+    "lng": "68.813798",
+    "lat": "42.432744",
+    "timezone": "6",
+    "slug": "arys"
+  },
+  {
+    "title": "Мырзакент кенті",
+    "lng": "68.544933",
+    "lat": "40.666728",
+    "timezone": "6",
+    "slug": "myrzakent"
+  },
+  {
+    "title": "Теңіз кен орны",
+    "lng": "53.387326",
+    "lat": "46.079223",
+    "timezone": "5",
+    "slug": "tengizskoe-neftianoe-mestorozhdenie"
+  },
+  {
+    "title": "Қосшы",
+    "lng": "71.355366",
+    "lat": "50.970262",
+    "timezone": "6",
+    "slug": "gorod-kosshy"
+  },
+  {
+    "title": "Құрық",
+    "lng": "51.679423",
+    "lat": "43.178221",
+    "timezone": "5",
+    "slug": "selo-kuryk"
+  },
+  {
+    "title": "Шетпе",
+    "lng": "52.162069",
+    "lat": "44.139155",
+    "timezone": "5",
+    "slug": "shetpe"
+  },
+  {
+    "title": "Маңғыстау (ауыл)",
+    "lng": "51.305553",
+    "lat": "43.691587",
+    "timezone": "5",
+    "slug": "selo-mangistau"
+  },
+  {
+    "title": "Мойынқұм ауылы",
+    "lng": "72.943291",
+    "lat": "44.284782",
+    "timezone": "6",
+    "slug": "aul-moiynkum"
+  },
+  {
+    "title": "Текелі қаласы",
+    "lng": "78.764266",
+    "lat": "44.863094",
+    "timezone": "6",
+    "slug": "gtekeli"
+  },
+  {
+    "title": "Сауран ауданы",
+    "lng": "68.356547",
+    "lat": "43.444109",
+    "timezone": "6",
+    "slug": "sauranskii-raion"
+  },
+  {
+    "title": "Ордабасы ауданы",
+    "lng": "69.195061",
+    "lat": "42.473743",
+    "timezone": "6",
+    "slug": "ordabasinskii-raion"
+  },
+  {
+    "title": "Қарқаралы",
+    "lng": "75.470095",
+    "lat": "49.412240",
+    "timezone": "6",
+    "slug": "karkaralinsk"
+  }
+]

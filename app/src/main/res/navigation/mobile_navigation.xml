@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_menu1">
+
+    <fragment
+        android:id="@+id/navigation_menu1"
+        android:name="kz.project.jaryq.ui.namaz.NamazFragment"
+        android:label="@string/title_menu1"
+        tools:layout="@layout/fragment_namaz" />
+
+    <fragment
+        android:id="@+id/navigation_menu2"
+        android:name="kz.project.jaryq.ui.kitaptar.KitaptarFragment"
+        android:label="@string/title_menu2"
+        tools:layout="@layout/fragment_kitaptar" />
+
+    <fragment
+        android:id="@+id/navigation_menu3"
+        android:name="kz.project.jaryq.ui.uakit.UakitFragment"
+        android:label="@string/title_menu3"
+        tools:layout="@layout/fragment_uakit" />
+
+    <fragment
+        android:id="@+id/navigation_menu4"
+        android:name="kz.project.jaryq.ui.uakit.UakitFragment"
+        android:label="@string/title_menu4"
+        tools:layout="@layout/fragment_uakit" />
+
+    <fragment
+        android:id="@+id/navigation_menu5"
+        android:name="kz.project.jaryq.ui.about_us.AboutUsFragment"
+        android:label="@string/title_menu5"
+        tools:layout="@layout/fragment_about_us" />
+</navigation>

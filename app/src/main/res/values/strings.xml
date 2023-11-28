@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Jaryq</string>
+
+    <string name="title_menu1">Намаз</string>
+    <string name="title_menu2">Кітаптар</string>
+    <string name="title_menu3">Уақыт</string>
+    <string name="title_menu4">Сұрақ</string>
+    <string name="title_menu5">Біз жайлы</string>
+    <string name="bookRead">кітапты оқу</string>
+
+
+    <string name="category">Категориялар</string>
+    <string name="other">Әртүрлі</string>
+    <string name="kuranAndSunnet">Құран және сүннет</string>
+    <string name="korkemMinez">Көркем мінез</string>
+    <string name="kulshilik">Құлшылық</string>
+    <string name="family">Отбасы</string>
+    <string name="duga">Дұға</string>
+
+
+    <string name="read">оқу</string>
+    <string name="booksNotFounds">" кітаптары табылмады"</string>
+    <string name="books">" кітаптары"</string>
+    <string name="bookFound">" кітап табылды"</string>
+    <string name="spinnerHint">Мекен жайын таңдаңыз</string>
+
+    <string name="address">Тараз қаласы</string>
+    <string name="phone">Phone: (123) 456-7890</string>
+    <string name="work_schedule">дүйсенбі - жұма 09:00-18:30 \nүзіліс 13:00-14:30</string>
+    <string name="authorized_person">Ақпаратқа қол жеткізу мәселелері  бойынша уәкілетті тұлға: \nМатаев Е.Ж. \nжұмыс телефоны: 8 (72772) 2-75-03</string>
+</resources>
