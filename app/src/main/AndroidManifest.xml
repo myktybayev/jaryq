@@ -15,6 +15,15 @@
         android:theme="@style/Theme.Jaryq"
         tools:targetApi="31">
         <activity
+            android:name=".ui.surak.activities.SurakDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.namaz.activities.MakalaDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.namaz.activities.NamazDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.kitaptar.activity.KitapDetailActivity"
             android:exported="false" />
         <activity

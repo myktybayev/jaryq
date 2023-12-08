@@ -28,9 +28,13 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 import kz.project.jaryq.R;
 import kz.project.jaryq.ui.uakit.model.City;
@@ -44,7 +48,8 @@ public class UakitFragment extends Fragment {
     List<City> cityTitles = new ArrayList<>();
     LinearLayout linearTime;
     boolean citySelected = false;
-    TextView time1, time2, time3, time4, time5, time6;
+    TextView cityName, today, time1, time2, time3, time4, time5, time6;
+    String aptaKunder[] = {" ", "Дүйсенбі", "Сейсенбі","Сәрсенбі","Бейсенбі","Жұма", "Сенбі", "Жексенбі"};
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_uakit, container, false);
@@ -60,11 +65,26 @@ public class UakitFragment extends Fragment {
         return view;
     }
 
+
     public void initViews() {
         progress_circular = view.findViewById(R.id.progress_circular);
         spinner = view.findViewById(R.id.spinner);
         linearTime = view.findViewById(R.id.linearTime);
 
+        today = view.findViewById(R.id.today);
+        Calendar calendar = Calendar.getInstance();
+        int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
+        int dayOfMonth = calendar.get(Calendar.MONTH);
+        int dayNumber = calendar.get(Calendar.DAY_OF_MONTH);
+
+        Date date = calendar.getTime();
+        SimpleDateFormat df = new SimpleDateFormat("HH:mm", Locale.getDefault());
+        String hourMinute = df.format(date);
+
+        today.setText(aptaKunder[dayOfWeek-1]+", "+hourMinute);
+
+
+        cityName = view.findViewById(R.id.cityName);
         time1 = view.findViewById(R.id.time1);
         time2 = view.findViewById(R.id.time2);
         time3 = view.findViewById(R.id.time3);
@@ -78,6 +98,8 @@ public class UakitFragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                cityName.setText(cityTitles.get(position).getTitle());
+
                 LoadCityTime loadCityTime = new LoadCityTime(cityTitles.get(position));
                 loadCityTime.execute();
             }
@@ -123,7 +145,6 @@ public class UakitFragment extends Fragment {
             }
 
             Collections.sort(cityTitles);
-
             ArrayAdapter<City> adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_dropdown_item, cityTitles);
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 

@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/jaryq_photo" />
+        android:src="@drawable/jaryq_img" />
 
 
     <TextView
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="@string/address"
+            android:text="040800, Қонаев қаласы, 4 ш/а, 10/1"
             android:textSize="16sp" />
 
     </LinearLayout>
@@ -57,11 +57,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="@string/phone"
+            android:text="Тел/факс: 8 (72772) 2-74-20"
             android:textSize="16sp" />
     </LinearLayout>
 
-    <!-- Work Schedule Section -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,36 +70,14 @@
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:contentDescription="@string/work_schedule"
-            android:src="@drawable/baseline_schedule_24" />
+            android:contentDescription="@string/phone"
+            android:src="@drawable/baseline_local_phone_24" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="@string/work_schedule"
+            android:text="Кеңсе: 8(72772) 2-74-20"
             android:textSize="16sp" />
     </LinearLayout>
-
-    <!-- Authorized Person Section -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="8dp">
-
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:contentDescription="@string/authorized_person"
-            android:src="@drawable/baseline_person_pin_24" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:text="@string/authorized_person"
-            android:textSize="16sp" />
-    </LinearLayout>
-
 </LinearLayout>

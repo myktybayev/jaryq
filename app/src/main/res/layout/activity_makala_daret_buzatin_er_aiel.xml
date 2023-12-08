@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Дәретті бұзатын нәрселер"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/daret_byzu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Үлкен-кіші дәрет, қан, мәни, мәзи, уәди секілді нәжістің немесе қандай бір сұйық, не қою нәрсенің шығуы.
+\n\n2. Мұрыннан немесе дененің кез-келген жерінен қан, ірің секілді нәрселердің шығуы. Ауыздан келген қан егер түкіріктің көлеміндей немесе түкіріктен көп болса, дәретті бұзады. Аз болса бұзылмайды. Дененің басқа жерінен шыққан қан айналасына жайылса, дәретті бұзады. Егер ине ұшындай бір қан шығып, қатып қалса дәретке зияндығы жоқ. Тіпті оны қолмен сүртіп не үгітіп тастау да дәретті бұзбайды. Сол секілді жарадан аққан ірің мен сары су да қан секілді.
+\n\n3. Жел шығу. Хадисте желдің шығып-шықпағаны жайлы күмәнданған адамға желдің дыбысы яки исі сезілмейінше, дәреттің бұзылмайтыны жайлы айтылады.
+\n\n4. Аузы толып құсу. Ауыз тола су, тамақ, қан, запыран секілді құсықтар дәретті бұзады. Қақырық түкірік секілді болғандықтан дәретті бұзбайды.
+\n\n5. Намазда дауыстап күлу.
+\n\n6. Ақыл-есінен айыратын жағдайлар дәретті бұзады. Ұйықтау, ақылына нұқсан келу, талу, мас болу секілді жағдайлар. Бірақ ұйықтау мәселесі басқа. Егер адам бір нәрсеге сүйеніп немесе жантайып жатса, яки болмаса аяқтарын созып отырып ұйықтаса, дәрет бұзылады. Өйткені, мұндай еркін ұйықтаған жағдайда жел шығу ықтималы бар. Бірақ адам жерге жақсылап отырып, ешбір жерге сүйенбесе немесе намазда қиямда, рүкүғта, сәждеде ұйықтаса, тіпті намаздан тыс осылайша ұйықтаса, дәреті бұзылмайды.
+\n\n7. Жыныстық қатынаста болу.
+\n\n8. Ерлі-зайыптылардың жыныс мүшелерінің киімсіз бір-біріне тиюлері.
+\n\n9. Мәсілерге мәсіх етілгеннен кейін жергілікті тұрғынға бір күн, бір түннің, ал жолаушыға үш күннің өтуі немесе мәсіх етілгеннен кейін сол уақыт ішінде мәсінің біреуі болсын шешілуі.
+\n\n10.Үзірлі адамның алған дәретінің уақыты шығуы. Белгілі бір себебі бар, мысалы, тісі қанай беретін адам әр намаз уақытының ішінде сол уақыт үшін дәрет алу керек. Жаңа азан оқылғанда сол уақытқа арналып алған дәреті бұзылады да, оған жаңа уақыт үшін қайта дәрет алуы қажет.
+\n\n11. Тәйәммүм жасаған адамның суға қолы жетуі.
+"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

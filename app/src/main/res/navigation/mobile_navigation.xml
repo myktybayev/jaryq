@@ -25,9 +25,9 @@
 
     <fragment
         android:id="@+id/navigation_menu4"
-        android:name="kz.project.jaryq.ui.uakit.UakitFragment"
+        android:name="kz.project.jaryq.ui.surak.SurakFragment"
         android:label="@string/title_menu4"
-        tools:layout="@layout/fragment_uakit" />
+        tools:layout="@layout/fragment_suraktar" />
 
     <fragment
         android:id="@+id/navigation_menu5"

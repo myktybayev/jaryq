@@ -1,5 +1,6 @@
 package kz.project.jaryq.ui.namaz;
 
+import android.content.res.TypedArray;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,6 +30,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import kz.project.jaryq.R;
+import kz.project.jaryq.ui.namaz.models.Makala;
+import kz.project.jaryq.ui.namaz.models.Namaz;
 
 
 public class NamazFragment extends Fragment {
@@ -37,9 +40,10 @@ public class NamazFragment extends Fragment {
     ProgressBar progress_circular;
     MakalalarAdapter makalalarAdapter;
     NamazOkypUireneikAdapter namazOkypUireneikAdapter;
-    List<String> list;
-    List<String> list2;
+    List<Makala> makalalar;
+    List<Namaz> namazList;
     RecyclerView recyclerViewMakala, recyclerViewUireneik;
+    String [] namazTimes, namazDesc, namazContent, namazVideoId;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_namaz, container, false);
@@ -53,28 +57,32 @@ public class NamazFragment extends Fragment {
         recyclerViewMakala = view.findViewById(R.id.recyclerViewMakala);
         recyclerViewUireneik = view.findViewById(R.id.recyclerViewUireneik);
 
-        list = new ArrayList<>();
-        list.add(" ");
-        list.add(" ");
-        list.add(" ");
-        list.add(" ");
-        list.add(" ");
-        list.add(" ");
+        makalalar = new ArrayList<>();
+        makalalar.add(new Makala(R.drawable.gusil, "Ғұсыл", "Ғұсыл дегеніміз не және оны не үшін алады?"));
+        makalalar.add(new Makala(R.drawable.daret, "Дәрет", "Ерлерге арналған дәрет алу үлгісі"));
+        makalalar.add(new Makala(R.drawable.daret_byzu, "Дәретті бұзатын нәрселер", "Жел шығу. Хадисте желдің шығып-шықпағаны жайлы күмәнданған адамға желдің дыбысы яки исі сезілмейінше..."));
+        makalalar.add(new Makala(R.drawable.namaz_paryz, "Намаз парыздары", "Аллаға құлшылық қылу. Бес парыздың біреуі"));
+        makalalar.add(new Makala(R.drawable.namaz_turleri, "Намаздың түрлері", "Бұлар бес уақыт намаз, жұма және жаназа намаздары."));
 
 
-        makalalarAdapter = new MakalalarAdapter(getActivity(), list);
+        makalalarAdapter = new MakalalarAdapter(getActivity(), makalalar);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
         recyclerViewMakala.setLayoutManager(layoutManager);
         recyclerViewMakala.setAdapter(makalalarAdapter);
 
+        TypedArray imgs = getActivity().getResources().obtainTypedArray(R.array.namaz_image);
+        namazTimes = getActivity().getResources().getStringArray(R.array.namaz_times);
+        namazDesc = getActivity().getResources().getStringArray(R.array.namaz_desc);
+        namazContent = getActivity().getResources().getStringArray(R.array.namaz_content_er);
+        namazVideoId = getActivity().getResources().getStringArray(R.array.namaz_video_id);
+        namazList = new ArrayList<>();
 
-        list2 = new ArrayList<>();
-        list2.add(" ");
-        list2.add(" ");
-        list2.add(" ");
-        list2.add(" ");
-        list2.add(" ");
-        namazOkypUireneikAdapter = new NamazOkypUireneikAdapter(getActivity(), list2);
+        for (int i = 0; i < namazTimes.length; i++) {
+            int imgR = imgs.getResourceId(i, 0);
+            namazList.add(new Namaz(imgR, namazTimes[i], namazDesc[i], namazContent[i],namazVideoId[i]));
+        }
+
+        namazOkypUireneikAdapter = new NamazOkypUireneikAdapter(getActivity(), namazList);
         LinearLayoutManager layoutManager2 = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
         recyclerViewUireneik.setLayoutManager(layoutManager2);
         recyclerViewUireneik.setAdapter(namazOkypUireneikAdapter);

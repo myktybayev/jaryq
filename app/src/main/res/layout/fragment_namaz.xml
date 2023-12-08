@@ -6,20 +6,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:layout_marginBottom="40dp"
     tools:context=".ui.namaz.NamazFragment">
 
     <TextView
         android:id="@+id/tvMakala"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Мақалалар"
+        android:text="Мәліметтер"
         android:textColor="@color/black"
         android:textSize="20sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewMakala"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_above="@id/tvUirenu"
         android:layout_below="@id/tvMakala"
         android:layout_marginBottom="20dp"
@@ -38,8 +39,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewUireneik"
         android:layout_width="match_parent"
-        android:layout_height="190dp"
+        android:layout_height="215dp"
         android:layout_alignParentBottom="true"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/item_namaz" />
+
 </RelativeLayout>

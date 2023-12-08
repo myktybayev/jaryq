@@ -1,6 +1,7 @@
 package kz.project.jaryq.ui.namaz;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,15 +14,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import kz.project.jaryq.R;
+import kz.project.jaryq.ui.namaz.activities.NamazDetailActivity;
+import kz.project.jaryq.ui.namaz.models.Namaz;
 
 
 public class NamazOkypUireneikAdapter extends RecyclerView.Adapter<NamazOkypUireneikAdapter.ViewHolder> {
     private Context context;
-    private List<String> list;
+    private List<Namaz> namazList;
 
-    public NamazOkypUireneikAdapter(Context context, List<String> list) {
+    public NamazOkypUireneikAdapter(Context context, List<Namaz> namazList) {
         this.context = context;
-        this.list = list;
+        this.namazList = namazList;
     }
 
     @NonNull
@@ -34,12 +37,16 @@ public class NamazOkypUireneikAdapter extends RecyclerView.Adapter<NamazOkypUire
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        Namaz namaz = namazList.get(position);
+        holder.image.setImageResource(namaz.getImageDraw());
+        holder.title.setText(namaz.getTitle());
+        holder.content.setText(namaz.getDesc());
 
     }
 
     @Override
     public int getItemCount() {
-        return list.size();
+        return namazList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -51,6 +58,15 @@ public class NamazOkypUireneikAdapter extends RecyclerView.Adapter<NamazOkypUire
             image = itemView.findViewById(R.id.image);
             title = itemView.findViewById(R.id.title);
             content = itemView.findViewById(R.id.content);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(context, NamazDetailActivity.class);
+                    intent.putExtra("nmz", namazList.get(getAdapterPosition()));
+                    context.startActivity(intent);
+                }
+            });
         }
     }
 }

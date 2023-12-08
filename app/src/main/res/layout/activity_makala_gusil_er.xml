@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Ғұсылдың парыздары"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/gusil" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ғұсылдың үш парызы бар:"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1) Ауызға су алып, тамаққа дейін шаю;
+                            \n2) Мұрынға су алып жуу;
+                            \n3) Барлық денені (иненің жасуындай құрғақ жер қалдырмай) жуу."
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nҒұсылдың Сүннеттері"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ғұсылдың ең басты сүннеттері мыналар:
+\n1) Ғұсылды “Бисмилләмен” бастау;
+\n2) Ғұсылға ниет ету;
+\n3) Алдымен дененің белгілі жерлерінде бар болса кірді жуып та-залау;
+\n4) Әурет жерлерді жуу;
+\n5) Ғұсыл алмай тұрып дәрет алу;
+\n6) Дәреттен кейін әуелі үш рет басқа, содан кейін үш рет оң иыққа, үш рет сол иыққа су құя отырып жуыну және суды әр құйған кезде дененің барлық жеріне жеткізу;
+\n7) Су құйған кезде денені ысқылау.
+\n8) Аяқ тұрған жерге су жиылатын болса, дәрет алғанда аяқтың жуылуын ең соңына қалдыру."
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nҒҰСЫЛ ҚАЛАЙ АЛЫНАДЫ?"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="Ғұсыл алатын кісі алдымен “Бисмилләны” айтады және жуынуға ниет етеді. Қолдарын білегіне дейін жуып, содан соң әурет жерлерін тазартады. Содан кейін оң қолымен үш рет су алып, тамағына дейін аузының ішін жақсылап шаяды. Егер ауыз бекіткен болса, тамағына су жібермей шаяды. Содан кейін оң қолымен үш рет мұрынға су алып, сол қолымен сіңбіріп тазалайды.
+Содан кейін жоғарыда айтылғандай дәрет алынады. Дәрет біткен кезде, әуелі үш рет басына, содан соң үш рет оң иығына, үш рет сол иығына су құя отырып жуынады. Суды әр құйған сайын денені қол жеткенше ысқалап жуады. Иненің жасуындай құрғақ жер тастамай дененің барлық жерін үш рет жақсылап жуады.
+\n\nЖуынып жатқан кезде:
+\nКіндік, құлақтың ішкі жағы, сырғаның тесіктері, тіс аралары, сақал, мұрт және шаштың түптеріне су тиюіне мұқият болу керек. Ғұсылда дұға оқылмайды. Үстінде жамылғы болмаса, құбылаға қарауға және керексіз жағдайда сөйлесуге болмайды. Парыз бен сүннеттерге сай ғұсыл осылай алынады.
+Ғұсыл алатын адам ауыз бен мұрынды жақсылап шайғаннан кейін ағып жатқан суға, теңізге немесе үлкен хауызға (бассейн) шомылып, дененің барлық жеріне су тигізсе, ғұсыл алған болып есептеледі.
+"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
